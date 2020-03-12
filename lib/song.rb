@@ -16,7 +16,6 @@ class Song
       self.genre=genre
     end 
     
-    save
   end 
 
   def self.all
