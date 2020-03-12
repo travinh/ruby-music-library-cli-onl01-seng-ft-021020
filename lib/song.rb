@@ -15,6 +15,8 @@ class Song
     if genre != nil 
       self.genre=genre
     end 
+    
+    save
   end 
 
   def self.all
