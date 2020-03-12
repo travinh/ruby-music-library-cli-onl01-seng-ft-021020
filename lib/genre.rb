@@ -28,6 +28,7 @@ class Genre
     genre = Genre.new(name)
     genre.name = genre 
     save
+    genre
   end
   
   def songs 
