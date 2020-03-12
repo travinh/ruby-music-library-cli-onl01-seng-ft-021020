@@ -16,6 +16,7 @@ class Song
       self.genre=genre
     end 
     
+    @@all <<self
   end 
 
   def self.all
