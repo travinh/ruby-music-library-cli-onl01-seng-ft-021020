@@ -78,17 +78,10 @@ class Song
   end
 
   def genres
-    @new_array = []
-    @songs.each do |song|
-      if @new_array.include?(song.genre)
-        nil
-      else
-        @new_array << song.genre
-      end
-    end
-    @new_array
-  end
 
+    songs.map{|song| song.genre}.uniq
+
+  end 
   
   
   
